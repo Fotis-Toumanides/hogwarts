@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.colorDiv {
+    width: full;
+    height: 32px;
+    margin: 0 1rem 0 1rem;
+
+    border-radius: 5px;
+}
+
+.house-name {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/* .outter-div {
+    width: 80%;
+} */
