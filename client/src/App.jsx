@@ -10,7 +10,7 @@ function App() {
   const [showContent, setShowContent] = useState()
 
   useEffect(() => {
-    fetch('http://localhost:3300/houses')
+    fetch('https://hogwarts-z7pb-6d6pgfgps-fotis-toumanidis-projects.vercel.app/')
       .then(res => res.json())
       .then(data => {
         console.log(data)
